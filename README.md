@@ -45,3 +45,11 @@ Tablas de precios de un transporte dada una compañía.
 
 ## Archivo de documentación de la configuracion
 [Configuración del entorno, Prerrequisitos](doc/configuracion.md)
+
+## Planificación del Proyecto (Obj-1)
+La planificación y los archivos relacionados con el OBJ-1 de las asignatura
+se encuentran a continuación.
+- [Personas](doc/personas.md)
+- [User Journeys](doc/user_journeys.md)
+- [Historias de Usuario](doc/historias_usuario.md)
+- [Milestones](doc/milestones.md)
