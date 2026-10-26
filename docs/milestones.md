@@ -2,7 +2,7 @@
 A continuación se detalla de los milestrones establecidos, que es lo que se va a entregar, como se sabe que es válido y el soporte concreto que se va tener en cada uno de ellos.
 
 # Milestone 0 - Modelización base
-Relacionado con [HU001 - Conocer condiciones meteorológicas adecuadas](/hitorias_usuario.md).
+Relacionado con [HU001 - Conocer condiciones meteorológicas adecuadas](historias_usuario.md).
 
 # ¿Qué es lo que se va a entregar?
 - Definicón formal de los límites atmósfericos para la sostenibilidad del medio ambiente y la correcta distribución de un prodcuto fitosanitario.
@@ -15,7 +15,7 @@ Relacionado con [HU001 - Conocer condiciones meteorológicas adecuadas](/hitoria
 
 
 # Milestone 1 - Especificación y verificación de la lógica de negocio
-Relacionado con [HU002 - Conocer el impacto en campañas anteriores](/hitorias_usuario.md).
+Relacionado con [HU002 - Conocer el impacto en campañas anteriores](historias_usuario.md).
 
 # ¿Qué es lo que se va a entregar?
 - Algoritmo de verficiación de condiciones meteorológicas para el despliegue de ventanas.
