@@ -18,7 +18,7 @@ Decidiendo la aplicación o no del producto con cierto riesgo de ser al azar o s
 Verificando si existe o no una ventana válida en la cuál se cumplan o no las condiciones meteorológicas dentro de los límites de las buenas prácticas, dependiendo si devuelve su aplicación o su aplazamiento.
 
 
-## Historia de usuario 2 - Conocer la posibilidad de ventana válida dando un fin de semana
+## Historia de usuario 2 - Existe de verdad ventana válida dado un fin de semana
 ### ¿A quién afecta y por qué?
 Afecta a [Carla](personas.md#carla-37-años-madre-de-familia), porque quiere evitar desplazamientos innecesarios a Baza, ya que se debe organizar durante la semana para ello.
 
