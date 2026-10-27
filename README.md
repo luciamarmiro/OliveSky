@@ -49,7 +49,7 @@ Comprobará la integridad de dichos datos, descartando lecturas incoherentes oca
 
 Filtrará esos datos, usando los límites establecidos; obteniéndolos del CSV escrito con las cifras de sostenibilidad de productos fitosanitarios, para considerar una entrada válida.
 
-Recolectando los intervalos de media hora que cumplan aquellas condiciones y agruparlos en una posible ventana válida(6 intervalos = 3h). Dichos intervalos se considerarán aptos si hay almenos dos en los próximos 5 días
+Recolectando los intervalos de media hora que cumplan aquellas condiciones y agruparlos en una posible ventana válida(6 intervalos = 3h). Dichos intervalos se considerarán válidos si hay almenos dos en los próximos 5 días
 
 Con este histórico, se comparará el proceso de filtrado de los años anteriores, para ver que campaña se asemeja más a la actual dado el registro de condiciones atmosféricas (por ejemplo si es un año predominante de precipitaciones), cuáles fueron de toda la campaña anterior las horas y los días más óptimos y que decisión se tomó de cara a esa semana por la que se pregunta.
 
