@@ -5,7 +5,7 @@ A continuación, se detallan los agricultores que presentan problemas en la corr
 # Carla, 37 años, madre de familia.
 # ¿Quién es Carla?
 Soy Carla, soy madre de familia y vivo con mis hijos en la ciudad de Granada por mi trabajo y sus estudios. Debido a ello para poder ir a mi plantación de olivos, en Baza, me es necesario desplazarme.
-Además, no tengo disponibles todos los fines de semana para atender mi finca porque es cuando nos dedicamos a las tareas del hogar.
+Además, no tengo disponibles todos los fines de semana para atender mi finca porque es cuando nos dedicamos a las tareas del hogar. Por ello, cuando decido ir un fin de semana a Baza es necesario que me planifique previamente las tareas del hogar durante la semana.
 
 # ¿Por qué necesitaría OliveSky? 
 Carla necesita la aplicación porque en la anterior campaña, donde predominaban las altas temperaturas, decidió aplazar la aplicación del plaguicida para no arriesgarse a hacer el viaje en vano.
