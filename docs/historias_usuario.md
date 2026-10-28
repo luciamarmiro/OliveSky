@@ -1,5 +1,5 @@
 # Historias de usuario
-En este documento se explicarán con más detalle las historias de usuario HU001 y HU002
+En este documento se explicarán con más detalle las historias de usuario HU001 y HU002.
 
 ## Historia de usuario 1 - No saber si posponer o no la aplicación del plaguicida
 ### ¿A quién afecta y por qué?
@@ -7,15 +7,19 @@ Afecta a [Paco](personas.md#paco-70-años-prejubilado), porque él en la campañ
 
 ### ¿Cuál es el problema?
 Cada día Paco debe consultar manualmente el tiempo durante la semana, lo cuál requiere tiempo, ya que puede que necesite consultar más de una página web.
-Del mismo modo, Paco debe retener dichos días y horas que él cree que puede ser los más adecuados y hacer otra comprobación de si los valores más relevantes para la correcta uniformidad del producto están dentro de los límites; esto también requiere tiempo y supone una carga mental. 
+Del mismo modo, Paco debe retener dichos días y horas que él cree que pueden ser los más adecuados y hacer otra comprobación de si los valores más relevantes para la correcta uniformidad del producto están dentro de los límites; esto también requiere tiempo y supone una carga mental. 
 Decidiendo la aplicación o no del producto con cierto riesgo de ser al azar o subjetiva por miedo a la no existencia de condiciones meteorológicas válidas en el futuro.
 
 ### Datos que intervienen
 - [Fuente 2 - Límites establecidos por las buenas prácticas de aplicación de productos fitosanitarios](../README.md#cuáles-son-las-fuentes-de-datos)
 - [Fuente 1 - Condiciones meteorológicas de Baza](../README.md#cuáles-son-las-fuentes-de-datos)
+Esta fuente de datos del SiAR proporciona un histórico de las condiciones meteorológicas de semanas y campañas anteriores, por lo que para poder proporcionarle una respuesta a  Paco es necesario que se trabaje con las semanas anteriores a dicha semana por la que pregunta (por ejemplo, dos semanas anteriores).
+Así, sabríamos cuáles son las condiciones meteorológicas más características de dichas semanas (si predominan las altas temperaturas, la velocidad del viento es nula, etc) y se compararán con las semanas de las campañas anteriores para ver cuál o cuáles se le asemejan. Así se usaría eficazmente el histórico, ya que se buscarán ventanas válidas en la semana de la campaña anterior más parecida a nivel meteorológico y no se estaría comparando con una campaña anterior cualquiera. 
+
 
 ### ¿Cómo saber si es correcto lo que devuelve OliveSky?
-Verificando si existe o no una ventana válida en la cuál se cumplan o no las condiciones meteorológicas dentro de los límites de las buenas prácticas, dependiendo si devuelve su aplicación o su aplazamiento.
+Si devuelve su aplicación, verificando la existencia de una ventana válida en la cuál se cumplan las condiciones meteorológicas dentro de los límites de las buenas prácticas en la semana más parecida de anteriores campañas.
+Si devuelve su aplazamiento, verificando la no existencia de dicha ventana válida.
 
 
 ## Historia de usuario 2 - Existe de verdad ventana válida dado un fin de semana
