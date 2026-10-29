@@ -29,16 +29,12 @@ En concreto se descargará de dicha web un CSV que contendrá información meteo
 
 [Fuente 1](https://servicio.mapa.gob.es/siarweb/consultaDatos/consultaDatos)
 
-![Información Climática de Baza](media/ejemplo_info_baza.jpg)
-
 Esta información se ha obtenido introduciendo en el SIAR lo siguiente: población, rango de fechas, parámetros(humedad media, velocidad del viento, dirección del viento, precipitaciones, temperatura), y frecuencia (semihoraria); que será lo necesario para conseguir los datos con los que se va a trabajar.
 
 Además de guardar un CSV con la información relevante y determinante de las condiciones meteorológicas para la dispersión de productos pulverizados. 
 Se encuentra en el BOE, Real Decreto 1311/2012, Uso sostenible de los productos fitosanitarios.
 
 [Fuente 2](https://www.boe.es/buscar/act.php?id=BOE-A-2012-11605)
-
-![Ejemplo Información Velocidad del viento](media/ejemplo_info_vel_viento.jpg)
 
 
 ## ¿Cuál es la lógica de negocio?
@@ -53,25 +49,24 @@ Comprobará la integridad de dichos datos, descartando lecturas incoherentes oca
 
 Filtrará esos datos, usando los límites establecidos; obteniéndolos del CSV escrito con las cifras de sostenibilidad de productos fitosanitarios, para considerar una entrada válida.
 
-Recolectando los intervalos de media hora que cumplan aquellas condiciones y agruparlos en una posible ventana válida(6 intervalos = 3h). Dichos intervalos se considerarán aptos si hay almenos dos en los próximos 5 días
+Recolectando los intervalos de media hora que cumplan aquellas condiciones y agruparlos en una posible ventana válida(6 intervalos = 3h). Dichos intervalos se considerarán válidos si hay almenos dos en los próximos 5 días
 
 Con este histórico, se comparará el proceso de filtrado de los años anteriores, para ver que campaña se asemeja más a la actual dado el registro de condiciones atmosféricas (por ejemplo si es un año predominante de precipitaciones), cuáles fueron de toda la campaña anterior las horas y los días más óptimos y que decisión se tomó de cara a esa semana por la que se pregunta.
 
 Contrastando así, el resultado obtenido de APLAZAR o NO APLAZAR el echar el plaguicida. Dandole peso realista, y ayudando con criterio a responder la toma de decisión en la que se encuentra el agricultor.
 
 
-## Tarjeta Juego de rol
-
-A continuación se encuentran las tarjetas de rol de cliente, desarrollador y de validación utilizadas para la obtención adecuada del problema.
-
-![Fotografia tarjeta de rol cliente](media/tarjeta_cliente.jpg)
-
-![Fotografia tarjeta de rol desarrollador](media/tarjeta_desarrollador.jpg)
-
-![Fotografia tarjeta validación](media/tarjeta_validacion.jpg)
-
 ## Archivo de documentación de la configuracion
 
 A continuación se encuentra el archivo relacionado con la configuración del entorno.
 
 [Configuración, Prerrequisitos](docs/configuracion.md)
+
+
+## Planificación del Proyecto (Obj-1)
+La planificación y los archivos relacionados con el OBJ-1 de las asignatura
+se encuentran a continuación.
+- [Personas](docs/personas.md)
+- [User Journeys](docs/user_journeys.md)
+- [Historias de Usuario, representan un problema](docs/historias_usuario.md)
+- [Milestones](docs/milestones.md)
