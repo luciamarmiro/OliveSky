@@ -68,5 +68,5 @@ La planificación y los archivos relacionados con el OBJ-1 de las asignatura
 se encuentran a continuación.
 - [Personas](docs/personas.md)
 - [User Journeys](docs/user_journeys.md)
-- [Historias de Usuario](docs/historias_usuario.md)
+- [Historias de Usuario, representan un problema](docs/historias_usuario.md)
 - [Milestones](docs/milestones.md)
