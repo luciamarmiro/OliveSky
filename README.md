@@ -74,4 +74,4 @@ A continuación se encuentran las tarjetas de rol de cliente, desarrollador y de
 
 A continuación se encuentra el archivo relacionado con la configuración del entorno.
 
-[Configuración, Prerrequisitos](doc/configuracion.md)
+[Configuración, Prerrequisitos](docs/configuracion.md)
