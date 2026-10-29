@@ -1,7 +1,6 @@
 # Milestones
 
 ## Milestone 0 - Modelo de dominio inicial
-Relacionado con [HU001 - No saber si posponer o no la aplicación del plaguicida](historias_usuario.md#historia-de-usuario-1---no-saber-si-posponer-o-no-la-aplicación-del-plaguicida).
 
 ### ¿Cómo se hace?
 Se parte de la HU001, y se emplea la metodología Domain Driven Design para presentar un modelo inicial que conecte el código inicial con los conceptos mínimos del problema real que presenta la historia de usuario. Dichos conceptos se debatirán mediante issues si estamos ante un objeto de valor, una entidad; o los errores que se puedan dar al crearse.
@@ -11,7 +10,6 @@ Se comprueba si se ha seguido la metodología DDD, se han creado los issues a pa
 
 
 ## Milestone 1 - Lógica de negocio inicial
-Relacionado también con [HU001 - No saber si posponer o no la aplicación del plaguicida](historias_usuario.md#historia-de-usuario-1---no-saber-si-posponer-o-no-la-aplicación-del-plaguicida).
 
 ### ¿Cómo se hace?
 Se parte del entregable en el milestone 0, y se continúa trabajando con la HU001 para establecer la primera lógica de negocio simple de la historia de usuario. Se continua trabajando con issues y commits referenciados.
