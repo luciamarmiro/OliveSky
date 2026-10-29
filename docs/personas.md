@@ -20,4 +20,4 @@ Actualmente me dedicó al olivo y al almendro.
 
 # ¿Por qué necesita OliveSky? 
 Paco necesita la aplicación porque en la campaña anterior decidió aplicar el plaguicida en una semana en la que la humedad no era la adecuada y como consecuencia, al no seguir las buenas prácticas, no se garantizó la uniformidad de la distribución. 
-Afectando a la adecuada evaporación del producto, derivandose este en parcelas adyacentes donde se encontraban sus plantaciones de almendro, a las que ese plaguicida perjudica su correcta brotación.
+Esto afecto a la adecuada evaporación del producto, derivandose este en sus parcelas adyacentes; donde tenía plantaciones de almendro, perjudicando también su correcta brotación. Por lo que ocasionó pérdidas en ambas plantaciones.
